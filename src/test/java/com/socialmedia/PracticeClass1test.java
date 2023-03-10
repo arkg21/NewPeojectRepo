@@ -2,7 +2,7 @@ package com.socialmedia;
 
 import org.testng.annotations.Test;
 
-public class PracticeClass1 
+public class PracticeClass1test 
 {
 @Test
 public void practiceClass1()

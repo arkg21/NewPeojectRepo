@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.tyss</groupId>
-	<artifactId>SalesandInventory_Sales_SeleniumFramework</artifactId>
+	<artifactId>socialmedia</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
@@ -58,20 +58,7 @@
 
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M9</version>
-				<configuration>
-					<suiteXmlFiles>
-						<suiteXmlFile>runner/${suite}</suiteXmlFile>
-					</suiteXmlFiles>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+	
 	<profiles>
 		<profile>
 			<id>Admin</id>
@@ -83,7 +70,7 @@
 						<version>3.0.0-M9</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>runner/${suite}</suiteXmlFile>
+								<suiteXmlFile>testng.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
