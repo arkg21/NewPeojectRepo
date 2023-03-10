@@ -9,6 +9,7 @@ public void practiceClass1()
 {
 	System.out.println("Test 1");
 	System.out.println("Test 454545");
+	System.out.println(System.getProperty("browser"));
 }
 
 @Test
