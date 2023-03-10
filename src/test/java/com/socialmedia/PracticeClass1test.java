@@ -8,6 +8,7 @@ public class PracticeClass1test
 public void practiceClass1()
 {
 	System.out.println("Test 1");
+	System.out.println("Test 454545");
 }
 
 @Test
